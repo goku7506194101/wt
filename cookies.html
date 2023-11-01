@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+<input type="button" value="setcookie" onclick="setcookie()">
+<input type="button" value="getcookie" onclick="getcookie()">
+<script>
+function setcookie()
+{
+	document.cookie="username=duke martin";
+}
+function getcookie()
+{
+	if(document.cookie.length !=0)
+	{
+	alert(document.cookie);
+	}
+	else
+	{
+	alert("cookie not found");
+	}
+}
+</script>
+</body>
+</html>
